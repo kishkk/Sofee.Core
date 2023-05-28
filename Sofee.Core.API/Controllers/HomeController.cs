@@ -4,12 +4,12 @@ using RESTFulSense.Controllers;
 
 namespace Sofee.Core.API.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class HomeController : RESTFulController
     {
         [HttpGet]
         public ActionResult<string> Get() =>
-            Ok("Hello World!");
+            "Hello World!";
     }
 }
