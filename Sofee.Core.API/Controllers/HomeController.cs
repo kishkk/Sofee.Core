@@ -10,6 +10,6 @@ namespace Sofee.Core.API.Controllers
     {
         [HttpGet]
         public ActionResult<string> Get() =>
-            "You do not have access to area!";
+            "You do not have access to this area!";
     }
 }
